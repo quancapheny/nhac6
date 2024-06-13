@@ -1,0 +1,21 @@
+.quan {
+  transition: 2s;
+  opacity: 0;
+}
+input:checked ~ .quan {
+  opacity: 100;
+}
+a {
+  color: rgb(255, 0, 0);
+}
+body {
+  background: url(./taoanhdep_lam_net_anh_89713.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.p {
+  -webkit-box-shadow: 0px 0px 164px 94px rgba(45, 255, 196, 0.77);
+  -moz-box-shadow: 0px 0px 164px 94px rgba(45, 255, 196, 0.77);
+  box-shadow: 0px 0px 164px 94px rgba(45, 255, 196, 0.77);
+}
